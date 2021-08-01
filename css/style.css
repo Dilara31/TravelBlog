@@ -1,0 +1,146 @@
+/*
+ * Feel free to change name of colors if you need it
+ * Feel free to add new colors if you need it
+ */
+
+ :root {
+    --bg-color--dark: #0b192f;
+    --bg-color--medium: #162b4d;
+    --text--color: #484848;
+    --link: #fff;
+    --link--hover: #b8b8b8;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  header {
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #162b4d;
+      margin: 50px;
+      padding: 25px;
+      font-size: 50px;
+  }
+  
+  nav > a {
+    color: white;
+    margin: 0 30px;
+    font-size: 30px;
+  }
+  
+  .colortext {
+    color: red;
+  }
+  
+  section > article > div {
+    margin: 35px;
+    line-height: 2;
+    max-width: 35%;
+    min-width: 35%;
+  }
+  
+  section > article {
+    margin: 0 50px;
+    max-width: 70%;
+    font-style: normal;
+  }
+  
+  section > article:nth-child(2n) {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+  
+  section > article > img:hover {
+    cursor: pointer;
+    opacity: 50%;
+  }
+  
+  section > article > div:hover {
+    cursor: pointer;
+    opacity: 50%;
+  }
+  
+  aside {
+    float: right;
+    max-width: 25%;
+  } 
+  
+  aside > div > article {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px 50px 0;
+    background: white;
+    font-size: 30px;
+    line-height: 1.5;
+  }
+  
+  h3 {
+    padding: 30px;
+  }
+  aside > div > article > p {
+    padding: 30px;
+  }
+  
+  .button {
+      width: 220px;
+      height: 60px;
+      font-size: 25px;
+      text-transform: uppercase;
+      margin: 0 50px 50px 50px;
+  }
+  
+  .button:hover {
+    cursor: pointer;
+    opacity: 50%;
+  }
+  
+  .post-1 {
+    background: #F3D250;
+    display: flex;
+    font-size: 25px;
+  }
+  
+  .post-2 {
+      background: #8D8741;
+    display: flex;
+    font-size: 25px;
+  }
+  .post-3 {
+      background: #659DBD;
+    display: flex;
+    font-size: 25px;
+  }
+  .post-4 {
+      background: #DAAD86;
+    display: flex;
+    font-size: 25px;
+  }
+  
+  .post-5 {
+    display: flex;
+    line-height: 2; 
+    color: white;
+    font-size: 25px;
+    margin-top: 0;
+  }
+  
+  .post-5 > div {
+    position: absolute;
+  }
+  
+  footer > section {
+    display: flex;
+    background-color: #162b4d;
+    color: white;
+    font-size: 22px;
+    margin: 0 50px;
+    justify-content: space-between;
+    padding: 25px;
+    line-height: 2;
+  }
+  /* Your styles go here */
